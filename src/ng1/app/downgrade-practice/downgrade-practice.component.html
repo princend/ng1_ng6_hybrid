@@ -2,14 +2,14 @@
     <h3><a href="/home" class="" style="color:black;">回主頁</a></h3>
 </div> -->
 <div style="margin-top:5px;border:2px solid black;width:100%;padding:25px;">
-
     <h3>{{self.title}}</h3>
 
+    <h4>輸入屬性: <input type="text" ng-model="self.inputValue" placeholder="ng1輸入ng6元件屬性"></h4>
+    <h4>按鈕按了{{self.times}}次</h4>
     <div style="margin-top:50px;border:2px dashed black;width:100%;">
         <h3>{{self.content}}</h3>
-        <test></test>
+        <test [name]="self.inputValue" (output-event)="self.outputEvent($event)"></test>
     </div>
-
 </div>
 
 
