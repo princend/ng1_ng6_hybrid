@@ -8,9 +8,7 @@ angular.module('home', []).
                 var self = this;
                 self.chapters = chapters;
                 self.navigate = function (chapter) {
-                    console.log('ddd',chapter)
                     location.href = `${chapter.url}`
-
                 }
             }
         ],
