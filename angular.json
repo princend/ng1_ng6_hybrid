@@ -20,12 +20,43 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/styles.css",
+              "src/ng1/app/app.css",
+              "src/ng1/app/app.animations.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/angular/angular.js",
+              "node_modules/angular-animate/angular-animate.js",
+              "node_modules/angular-resource/angular-resource.js",
+              "node_modules/angular-route/angular-route.js",
+              "src/ng1/app/lib/lazyload/ocLazyLoad.min.js",
+              "src/ng1/app/home/home.component.js",
+              "src/ng1/app/app.module.js",
+              "src/ng1/app/app.config.js",
+              "src/ng1/app/app.animations.js",
+              "src/ng1/app/core/core.module.js",
+              "src/ng1/app/core/checkmark/checkmark.filter.js",
+              "src/ng1/app/core/phone/phone.module.js",
+              "src/ng1/app/core/phone/phone.service.js",
+              "src/ng1/app/phone-list/phone-list.module.js",
+              "src/ng1/app/phone-list/phone-list.component.js",
+              "src/ng1/app/phone-detail/phone-detail.module.js",
+              "src/ng1/app/phone-detail/phone-detail.component.js",
+              "src/ng1/app/trend/trend.module.js",
+              "src/ng1/app/trend/trend.component.js",
+              "src/ng1/app/core/core.module.js",
+              "src/ng1/app/filter/filter.module.js",
+              "src/ng1/app/filter/filter.component.js",
+              "src/ng1/app/filter/locale-date/locale-date.filter.js",
+              "src/ng1/app/activities/activities.module.js",
+              "src/ng1/app/search-option/search-option.component.js"
+            ]
           },
           "configurations": {
             "production": {
