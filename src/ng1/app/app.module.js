@@ -6,9 +6,13 @@ angular.module('myApp', [
   'ngRoute',
   'core',
   'home',
+  'downgradePractice',
   'phoneDetail',
   'phoneList',
   'trend',
   'filter',
-  'activities',
-]);
+  'activities'
+])
+
+
+

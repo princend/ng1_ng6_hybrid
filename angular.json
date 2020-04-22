@@ -37,6 +37,7 @@
               "node_modules/angular-route/angular-route.js",
               "src/ng1/app/lib/lazyload/ocLazyLoad.min.js",
               "src/ng1/app/home/home.component.js",
+              "src/ng1/app/downgrade-practice/downgrade-practice.component.js",
               "src/ng1/app/app.module.js",
               "src/ng1/app/app.config.js",
               "src/ng1/app/app.animations.js",
@@ -56,6 +57,7 @@
               "src/ng1/app/filter/locale-date/locale-date.filter.js",
               "src/ng1/app/activities/activities.module.js",
               "src/ng1/app/search-option/search-option.component.js"
+           
             ]
           },
           "configurations": {

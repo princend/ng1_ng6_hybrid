@@ -19,5 +19,7 @@ const chapters = [
     { lesson: 1, name: '元件', url: '/trend' },
     { lesson: 2, name: '路由', url: '/activities' },
     { lesson: 3, name: '過濾器', url: '/filter' },
-    { lesson: 4, name: 'ng6', url: '/new/test' }
+    { lesson: 4, name: 'ng6', url: '/new/test' },
+    { lesson: 5, name: 'lazyload', url: '/orders/child' },
+    { lesson: 6, name: 'downgrade', url: '/downgrade-practice' }
 ]

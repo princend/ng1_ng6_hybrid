@@ -30,6 +30,9 @@ angular.
         when('/', {
           template: '<home></home>'
         }).
+        when('/downgrade-practice',{
+          template:'<downgrade-practice></downgrade-practice>'
+        }).
         // otherwise('/home');
         otherwise({template:''});
     }

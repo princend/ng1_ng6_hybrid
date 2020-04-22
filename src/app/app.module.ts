@@ -1,23 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ApplicationRef } from '@angular/core';
-import { UpgradeModule } from '@angular/upgrade/static';
+import { UpgradeModule, downgradeComponent } from '@angular/upgrade/static';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmptyComponent } from './empty/empty.component';
 import { TestComponent } from './test/test.component';
-// import { NewAppComponent } from './new-app/new-app.component';
-
+import * as ng from 'node_modules/angular'
 @NgModule({
   declarations: [
     AppComponent,
     EmptyComponent,
     TestComponent,
-    // NewAppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    UpgradeModule,
+    UpgradeModule
   ],
   entryComponents: [
     AppComponent
@@ -36,3 +34,10 @@ export class AppModule {
     appRef.bootstrap(AppComponent);
   }
 }
+
+/**將元件降級 */
+ng.module('myApp').directive(
+  'test', downgradeComponent({ component: TestComponent })
+)
+
+

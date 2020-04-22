@@ -11,15 +11,28 @@ const routes: Routes = [{
     component: TestComponent
 },
 {
+    path: 'orders',
+    loadChildren: './orders/orders.module#OrdersModule'
+},
+{
     path: '**',
     component: EmptyComponent
 },
-// {
-//     path: '',
-//     redirectTo: 'new/test',
-//     pathMatch: 'full'
 
-// }
+
+    // {
+    //     path: 'orders',
+    //     loadChildren: () => import('./orders/orders.module').then(m => m.OrdersModule)
+    // }
+
+
+
+    // {
+    //     path: '',
+    //     redirectTo: 'new/test',
+    //     pathMatch: 'full'
+
+    // }
 ];
 
 @NgModule({
