@@ -27,7 +27,7 @@
     "angular-route": "1.7.x",
     "bootstrap": "3.3.x",
     "core-js": "^2.5.4",
-    "jquery": "3.3.x",
+    "jquery": "3.5.x",
     "rxjs": "^6.0.0",
     "zone.js": "~0.8.26"
   },
